@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap');
+
+
+html{font-size: 10px; background-color: black; z-index: 1;}
+
+body
+{
+    margin: 0px;
+    font-family: 'Noto Serif KR', serif;
+    font-family: 'Song Myung', serif;
+}
+
+#grid-margin{width: 100%;}
+
+#contents{
+    margin: auto;
+}
+
+
+
+.fullscreen{ width: 100%; position: fixed; top: 0px; size: cover;}
+.otherscreen{ width: 100%; position: absolute; top: 0px;}
+.video{z-index: -1;}
+
+.menu-top{position: fixed; z-index: 2;}
+
+.img-fit{width: 100%;}
+.img-box{width: 100%; position: absolute; margin:auto;}
+
+.logo-start{margin-top: 80px;}
+
+.wrap{width: 50%; margin:auto; position: relative;}
+.wrap-img{width: 100%; vertical-align: middle;}
+.wrap-text{text-align: center; position: absolute; top: 50%;}
+
+.over-text{text-align: center; position: absolute; }
+.text-start{margin-top: 185px;}
+.text-subtitle-start{height: 1415px;}
+
+.box-start{height: 760px;}
+.pink-box{width: 100%; height: 500px; background-color:#d8069a; position: absolute; margin: auto;}
+.box-text-start{margin-top: 160px;}
+.box-text-margin{margin-left: 80px; margin-right: 80px;}
+
+#hover:hover{color: rgba(0,0,0,0);}
+
+.row
+{
+    display: flex;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 0px 5px;
+    position: relative;
+}
+
+.col-1{width: 8.33%; padding: 0px 10px;}
+.col-2{width: 16.66%; padding: 0px 10px;}
+.col-3{width: 24.99%; padding: 0px 10px;}
+.col-4{width: 33.32%; padding: 0px 10px;}
+.col-5{width: 41.65%; padding: 0px 10px;}
+.col-6{width: 49.98%; padding: 0px 10px;}
+.col-7{width: 58.31%; padding: 0px 10px;}
+.col-8{width: 66.64%; padding: 0px 10px;}
+.col-9{width: 74.97%; padding: 0px 10px;}
+.col-10{width: 83.3%; padding: 0px 10px;}
+.col-11{width: 91.63%; padding: 0px 10px;}
+.col-12{width: 100%; padding: 0px 10px;}
+
+
+
+.text-SongMyung{font-family: 'Song Myung'}
+.text-NotoSerif{font-family: 'Noto Serif KR';}
+
+.text-size-12pt{font-size: 1.2rem;}
+.text-size-16pt{font-size: 1.6rem;}
+.text-size-20pt{font-size: 2rem;}
+.text-size-24pt{font-size: 2.4rem;}
+.text-size-28pt{font-size: 2.8rem;}
+.text-size-38pt{font-size: 3.8rem;}
+.text-size-50pt{font-size: 5rem;}
+.text-size-80pt{font-size: 8rem;}
+.text-size-150pt{font-size: 15rem;}
+
+.text-weight-L{font-weight: 300;}
+.text-weight-R{font-weight: 400;}
+.text-weight-M{font-weight: 500;}
+.text-weight-B{font-weight: 700;}
+
+.text-align-center{text-align: center;}
+.text-align-left{text-align: left;}
+.text-align-right{text-align: right;}
+
+.text-color-white{color: white;}
+.text-color-pink{color: #d8069a;}
+
+.text-nav{position: sticky;}
+.text-body{display: block;}
+
+.none-style{text-decoration: none;}
+
+.footer{margin-top: 250px; margin-bottom: 30px;}
